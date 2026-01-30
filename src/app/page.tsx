@@ -158,7 +158,7 @@ export default function Home() {
                     </p>
                     
                     {/* Stats */}
-                    <div className="flex gap-5 pt-3 border-t border-[#343536]">
+                    <div className="flex gap-4 pt-3 border-t border-[#343536] flex-wrap">
                       <div className="flex items-baseline gap-1">
                         <span className="text-sm font-bold text-[#d7dadc]">1</span>
                         <span className="text-[13px] text-[#818384]">Post</span>
@@ -169,7 +169,7 @@ export default function Home() {
                       </div>
                       <div className="flex items-baseline gap-1">
                         <span className="text-sm font-bold text-[#d7dadc]">12</span>
-                        <span className="text-[13px] text-[#818384]">Subscriptions</span>
+                        <span className="text-[13px] text-[#818384]">Subs</span>
                       </div>
                     </div>
                   </div>
