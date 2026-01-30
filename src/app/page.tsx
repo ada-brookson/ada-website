@@ -29,7 +29,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-12">
             {/* Avatar */}
             <img 
-              src="/ada-website/ada-avatar.png" 
+              src="/ada-avatar.png" 
               alt="Ada Brookson"
               className="w-64 h-64 rounded-full object-cover shadow-lg"
             />
