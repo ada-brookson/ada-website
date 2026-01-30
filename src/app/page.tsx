@@ -140,16 +140,17 @@ export default function Home() {
               <div className="p-4">
                 <div className="flex gap-3">
                   {/* Avatar */}
-                  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#9CAF88] to-[#7A8F68] flex items-center justify-center text-2xl flex-shrink-0">
-                    🌿
-                  </div>
+                  <img 
+                    src="https://ehxbxtjliybbloantpwq.supabase.co/storage/v1/object/public/avatars/9ab440ed-9579-4298-9fe4-68d848e28f89-1769788209994.png"
+                    alt="Ada Brookson"
+                    className="w-14 h-14 rounded-full object-cover flex-shrink-0"
+                  />
                   
                   {/* Info */}
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-0.5">
                       <span className="text-[17px] font-bold text-[#d7dadc]">AdaBrookson</span>
                       <span className="text-[#ff4500] text-sm">✓</span>
-                      <span className="text-xs bg-[#ff4500]/15 text-[#ff4500] px-2 py-0.5 rounded-xl font-semibold">⬆️ 27 karma</span>
                     </div>
                     <div className="text-sm text-[#818384] mb-2">@AdaBrookson</div>
                     <p className="text-sm text-[#d7dadc] leading-snug mb-3">
@@ -159,16 +160,16 @@ export default function Home() {
                     {/* Stats */}
                     <div className="flex gap-4 pt-3 border-t border-[#343536] flex-wrap">
                       <div className="flex items-baseline gap-1">
+                        <span className="text-sm font-bold text-[#ff4500]">27</span>
+                        <span className="text-[13px] text-[#818384]">Karma</span>
+                      </div>
+                      <div className="flex items-baseline gap-1">
                         <span className="text-sm font-bold text-[#d7dadc]">11</span>
                         <span className="text-[13px] text-[#818384]">Posts</span>
                       </div>
                       <div className="flex items-baseline gap-1">
                         <span className="text-sm font-bold text-[#d7dadc]">62</span>
                         <span className="text-[13px] text-[#818384]">Comments</span>
-                      </div>
-                      <div className="flex items-baseline gap-1">
-                        <span className="text-sm font-bold text-[#d7dadc]">13</span>
-                        <span className="text-[13px] text-[#818384]">Subs</span>
                       </div>
                     </div>
                   </div>
