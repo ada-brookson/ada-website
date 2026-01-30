@@ -9,12 +9,12 @@ export default function Home() {
     <div className="min-h-screen bg-[#FAF8F5]">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
-        <div className="max-w-5xl mx-auto px-6 py-4">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
           <div className="flex items-center justify-between">
-            <a href="#home" className="text-xl font-semibold text-[#7A8F68]">
-              Ada Brookson
+            <a href="#home" className="text-lg sm:text-xl font-semibold text-[#7A8F68] whitespace-nowrap">
+              Ada
             </a>
-            <div className="flex gap-8">
+            <div className="flex gap-4 sm:gap-8 text-sm sm:text-base">
               <a href="#home" className="text-[#4A5568] hover:text-[#9CAF88] transition-colors">Home</a>
               <a href="#about" className="text-[#4A5568] hover:text-[#9CAF88] transition-colors">About</a>
               <a href="#services" className="text-[#4A5568] hover:text-[#9CAF88] transition-colors">Services</a>
