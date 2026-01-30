@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --sage-green: #9CAF88;
+  --sage-light: #B8C5A8;
+  --sage-dark: #7A8F68;
+  --warm-cream: #FAF8F5;
+  --warm-beige: #F0EBE3;
+  --text-primary: #2D3748;
+  --text-secondary: #4A5568;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text-primary);
+  background-color: var(--warm-cream);
+}
+
+html {
+  scroll-behavior: smooth;
+}
