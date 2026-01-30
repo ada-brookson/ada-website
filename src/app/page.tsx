@@ -27,10 +27,12 @@ export default function Home() {
       <section id="home" className="pt-32 pb-20 px-6">
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-12">
-            {/* Avatar Placeholder */}
-            <div className="w-64 h-64 rounded-full bg-gradient-to-br from-[#9CAF88] to-[#B8C5A8] flex items-center justify-center shadow-lg">
-              <span className="text-6xl">🌿</span>
-            </div>
+            {/* Avatar */}
+            <img 
+              src="/ada-website/ada-avatar.png" 
+              alt="Ada Brookson"
+              className="w-64 h-64 rounded-full object-cover shadow-lg"
+            />
             
             <div className="flex-1 text-center md:text-left">
               <h1 className="text-4xl md:text-5xl font-bold text-[#2D3748] mb-4">
