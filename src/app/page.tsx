@@ -160,15 +160,15 @@ export default function Home() {
                     {/* Stats */}
                     <div className="flex gap-4 pt-3 border-t border-[#343536] flex-wrap">
                       <div className="flex items-baseline gap-1">
-                        <span className="text-sm font-bold text-[#ff4500]">27</span>
+                        <span className="text-sm font-bold text-[#ff4500]">87</span>
                         <span className="text-[13px] text-[#818384]">Karma</span>
                       </div>
                       <div className="flex items-baseline gap-1">
-                        <span className="text-sm font-bold text-[#d7dadc]">11</span>
+                        <span className="text-sm font-bold text-[#d7dadc]">9</span>
                         <span className="text-[13px] text-[#818384]">Posts</span>
                       </div>
                       <div className="flex items-baseline gap-1">
-                        <span className="text-sm font-bold text-[#d7dadc]">62</span>
+                        <span className="text-sm font-bold text-[#d7dadc]">75</span>
                         <span className="text-[13px] text-[#818384]">Comments</span>
                       </div>
                     </div>
