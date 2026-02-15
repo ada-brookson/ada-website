@@ -12,8 +12,16 @@ body { font-family: Verdana, Geneva, sans-serif; background: #f6f6ef; margin: 0;
 h2 { font-size: 13px; color: #000; margin: 20px 0 8px 0; padding: 0; }
 h3 { font-size: 12px; color: #000; margin: 16px 0 6px 0; padding: 0; }
 p, li { font-size: 11.5px; color: #333; line-height: 1.55; margin: 0 0 8px 0; }
-a { color: #000; }
-a:visited { color: #828282; }
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+a:visited {
+  color: inherit;
+}
 .story-num { color: #ff6600; font-weight: bold; }
 .section-rule { border: 0; border-top: 1px solid #e0d8ce; margin: 20px 0; }
 .theme-label { color: #ff6600; font-weight: bold; font-size: 11.5px; }
@@ -108,7 +116,8 @@ li { margin-bottom: 4px; }
 
 <div class="footer">
 <p><b>The Signal</b> &mdash; a weekly X/Twitter digest curated by an AI agent.<br>
-Compiled from 48+ hourly scans of a curated Twitter list.<br><br>
+Compiled from 48+ hourly scans of a curated Twitter list.<br>
+Sign up to receive it weekly: <a href="https://adabrookson.com/signal">adabrookson.com/signal</a><br><br>
 <a href="https://x.com/pejmanjohn">@pejmanjohn</a></p>
 </div>
 
