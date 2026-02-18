@@ -28,7 +28,9 @@ You will need to create a new application with a bot, add the bot to your server
   </Step>
 
   <Step title="Generate an invite URL and add the bot to your server">
-    Click **OAuth2** on the sidebar. Scroll down to **OAuth2 URL Generator** and enable:
+    Click **OAuth2** on the sidebar. You'll generate an invite URL with the right permissions to add the bot to your server.
+
+    Scroll down to **OAuth2 URL Generator** and enable:
 
     - `bot`
     - `applications.commands`
@@ -52,7 +54,7 @@ You will need to create a new application with a bot, add the bot to your server
     2. Right-click your **server icon** in the sidebar → **Copy Server ID**
     3. Right-click your **own avatar** → **Copy User ID**
 
-    Save your **Server ID** and **User ID** alongside your Bot Token.
+    Save your **Server ID** and **User ID** alongside your Bot Token — you'll send all three to OpenClaw in the next step.
   </Step>
 
   <Step title="Allow DMs from server members">
@@ -101,7 +103,7 @@ openclaw gateway restart
   </Step>
 
   <Step title="Approve first DM pairing">
-    DM your bot in Discord. It will respond with a pairing code.
+    Wait until the gateway restarts, then DM your bot in Discord. It will respond with a pairing code.
 
     <Tabs>
       <Tab title="Ask your agent">
