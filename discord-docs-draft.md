@@ -46,14 +46,19 @@ You will need to create a new application with a bot, add the bot to your server
   </Step>
 
   <Step title="Enable Developer Mode and collect your IDs">
-    Back in the Discord app, you need to enable Developer Mode and collect two IDs:
+    Back in the Discord app, you need to enable Developer Mode so you can copy internal IDs.
 
     1. Click **User Settings** (gear icon next to your avatar) → **Advanced** → toggle on **Developer Mode**
-    2. Right-click your **server icon** in the sidebar → **Privacy Settings** → make sure **Direct Messages** is toggled on
-    3. Right-click your **server icon** again → **Copy Server ID**
-    4. Right-click your **own avatar** → **Copy User ID**
+    2. Right-click your **server icon** in the sidebar → **Copy Server ID**
+    3. Right-click your **own avatar** → **Copy User ID**
 
     Save your **Server ID** and **User ID** alongside your Bot Token.
+  </Step>
+
+  <Step title="Allow DMs from server members">
+    For pairing to work, Discord needs to allow your bot to DM you. Right-click your **server icon** → **Privacy Settings** → toggle on **Direct Messages**.
+
+    This lets server members (including bots) send you DMs. You can turn it off after pairing if you prefer.
   </Step>
 
   <Step title="Configure OpenClaw and pair">
